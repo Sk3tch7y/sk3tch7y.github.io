@@ -1,8 +1,65 @@
-*{
-    font-family: 'Didact Gothic';
-    color: #F7DBA7;
-    background-color: #1E2D2F;
+html{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
 }
-#header{
+body{
+    font-family: 'Didact Gothic';
+    color: #f7dba7;
+    background-color: #1E2D2F;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    size: 12px;
+}
+.header{
     
-} 
+    background-image: url('sunset.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip:content-box;
+    
+}
+#title{
+    
+    width: -moz-fit-content;
+    width: fit-content;
+    size: 24px;
+    text-align: center;
+    
+    border-radius: 15px;
+    border: 3px solid #F1AB86;
+    padding:0px;
+    margin-right:0%;
+    margin:0%
+}
+.splitContainer{
+    width: 100%;
+    overflow: hidden;
+    
+    border-radius: 15px;
+}
+.splitRight{
+    float: left;
+    width: 50%;
+    min-height: auto;
+    background-color: #424B54;
+    border: 3px solid #F1AB86;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.splitLeft{
+    width: 50%;
+    min-height: auto;
+    float: left;
+    margin-right: 10px;
+    background-color: #424B54;
+    border: 3px solid #F1AB86;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
