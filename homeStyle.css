@@ -8,9 +8,14 @@ ul{
     margin-top: 0px;
     list-style: none;
 }
+#menubutton{
+    width: 32px;
+    height:32px;
+}
 #menuBut{
-    position: absolute;
-    display: flex;
+    top: 10px;
+    position: sticky;
+    float: left;
     align-items:first baseline;
     justify-content:first baseline;
     padding: 2%;
@@ -71,7 +76,8 @@ h2{
     overflow:auto;
     justify-content: center;
     align-items: center;
-    max-width: 40%;
+    max-width: 50%;
+    min-width: 40%;
     padding: 1%;
     background: #424B5434;
     border: 3px solid #F1AB86;
@@ -93,4 +99,8 @@ h2{
     background-color: #C57B57;
     align-items: last baseline;
     padding: 10%;
+}
+#bottomimg{
+    width: 32px;
+    height:32px;
 }
