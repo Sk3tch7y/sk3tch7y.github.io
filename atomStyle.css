@@ -56,9 +56,6 @@ body{
     padding: 0px;
     margin: 0px;
 }
-h2{
-    size: 12px;
-}
 .header{
     position: relative;
     background-image: url('homeContent/sunset.jpg');
@@ -85,33 +82,6 @@ h2{
     padding:0px;
     margin-top:20%;
     margin-bottom:25%;
-}
-.splitContainer{
-    width: 100%;
-    overflow: hidden;
-    border-radius: 15px;
-}
-.splitLeft, .splitRight{
-    
-    Display: flex;
-    overflow:auto;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
-    min-width: 40%;
-    padding: 1%;
-    background: #424B5434;
-    border: 3px solid #F1AB86;
-    border-radius: 15px;
-    box-sizing: border-box;
-}
-.splitRight{
-    float: right;
-    line-height: 50px;
-}
-.splitLeft{
-    float: left; 
-    line-height: 50px;
 }
 .footer{
     display: flex;

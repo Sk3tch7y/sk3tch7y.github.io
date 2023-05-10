@@ -17,7 +17,7 @@ li{
     text-align: center;
 }
 a{
-    color:#f7dba7;
+    color:#B14AED;
     text-decoration: none;
 }
 #menubutton{
@@ -36,8 +36,8 @@ a{
 #menuBar{
     max-width: 20%;
     max-height: 10%;
-    background-color: #C57B578B;
-    border: 1px solid #C57B57;
+    background-color: #1F1F1F8B;
+    border: 1px solid #FF00D0;
     border-radius: 15px;
     position: sticky;
     float: left;
@@ -49,19 +49,16 @@ a{
 }
 body{
     font-family: 'Didact Gothic';
-    color: #f7dba7;
-    background-color: #1E2D2F;
+    color: #B14AED;
+    background-color: #000000;
     text-align: center;
     border: 0px;
     padding: 0px;
     margin: 0px;
 }
-h2{
-    size: 12px;
-}
 .header{
     position: relative;
-    background-image: url('homeContent/sunset.jpg');
+    background-image: url('pinkObContent/PinkObConcept.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,43 +78,16 @@ h2{
     text-align: center;
     background: #424B5499;
     border-radius: 15px;
-    border: 3px solid #F1AB86;
+    border: 3px solid #B14AED;
     padding:0px;
     margin-top:20%;
     margin-bottom:25%;
-}
-.splitContainer{
-    width: 100%;
-    overflow: hidden;
-    border-radius: 15px;
-}
-.splitLeft, .splitRight{
-    
-    Display: flex;
-    overflow:auto;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
-    min-width: 40%;
-    padding: 1%;
-    background: #424B5434;
-    border: 3px solid #F1AB86;
-    border-radius: 15px;
-    box-sizing: border-box;
-}
-.splitRight{
-    float: right;
-    line-height: 50px;
-}
-.splitLeft{
-    float: left; 
-    line-height: 50px;
 }
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #C57B57;
+    background-color: #1F1F1F;
     align-items: last baseline;
     padding: 1%;
 }
