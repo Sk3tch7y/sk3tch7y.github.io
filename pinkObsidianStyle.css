@@ -1,11 +1,9 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Didact Gothic';
 }
 html{
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
     scroll-behavior: smooth;
 }
 ul{
@@ -17,7 +15,7 @@ li{
     text-align: center;
 }
 a{
-    color:#B14AED;
+    color:#f7dba7;
     text-decoration: none;
 }
 #menubutton{
@@ -32,16 +30,18 @@ a{
     border: none;
     background: none;
 }
-
+#menuBar li{
+    display: block;
+}
 #menuBar{
-    max-width: 20%;
+    max-width: 15%;
+    width: auto;
     max-height: 10%;
     background-color: #1F1F1F8B;
     border: 1px solid #FF00D0;
     border-radius: 15px;
     position: sticky;
-    float: left;
-    margin-top: 1%;
+    top: 15px;
     
 }
 .hidden{

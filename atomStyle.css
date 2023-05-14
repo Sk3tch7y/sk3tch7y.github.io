@@ -1,11 +1,9 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Didact Gothic';
 }
 html{
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
     scroll-behavior: smooth;
 }
 ul{
@@ -32,16 +30,18 @@ a{
     border: none;
     background: none;
 }
-
+#menuBar li{
+    display: block;
+}
 #menuBar{
-    max-width: 20%;
+    max-width: 15%;
+    width: auto;
     max-height: 10%;
     background-color: #C57B578B;
     border: 1px solid #C57B57;
     border-radius: 15px;
     position: sticky;
-    float: left;
-    margin-top: 1%;
+    top: 15px;
     
 }
 .hidden{
@@ -80,8 +80,7 @@ body{
     border-radius: 15px;
     border: 3px solid #F1AB86;
     padding:0px;
-    margin-top:20%;
-    margin-bottom:25%;
+    margin: 25% auto;
 }
 .footer{
     display: flex;
