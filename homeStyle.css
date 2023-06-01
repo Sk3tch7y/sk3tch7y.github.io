@@ -21,6 +21,8 @@ a{
 #menubutton{
     width: 32px;
     height:32px;
+    position: fixed;
+    top: 20px;
 }
 #menuBut{
     top: 10px;
@@ -31,10 +33,10 @@ a{
     background: none;
 }
 #menuBar li{
-    display: block;
+    
 }
 #menuBar{
-    max-width: 15%;
+    max-width: 150px;
     width: auto;
     max-height: 10%;
     background-color: #C57B578B;
@@ -60,6 +62,7 @@ h2{
     size: 12px;
 }
 .header{
+
     position: relative;
     background-image: url('homeContent/sunset.jpg');
     background-attachment: fixed;
