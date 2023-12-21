@@ -8,8 +8,6 @@ html{
 }
 body{
     font-family: 'Didact Gothic';
-    color: #DDb892;
-    background-color: #1E2D2F;
     text-align: center;
     border: 0px;
     padding: 0px;
@@ -24,7 +22,7 @@ li{
     text-align: center;
 }
 a{
-    color:#DDB892;
+    color:#EDE0D4;
     text-decoration: none;
 }
 a:active{
@@ -65,7 +63,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #C57B57;
+    background-color: #B08968;
     align-items: last baseline;
     padding: 1% 0;
 }

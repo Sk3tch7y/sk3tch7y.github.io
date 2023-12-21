@@ -1,24 +1,15 @@
-
-
+html{
+    color: #E6CCB2;
+}
+#proj{
+    color:#5c3b27;
+}
 h2{
-    size: 12px;
+    size: 1.5rem;
 }
 body{
-
     position: relative;
-    background-image: url('homeContent/widepond.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-clip:content-box;
-    
-}
-.titleName{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #EDE0D4;
 }
 #title{
     min-width: 50%;
@@ -31,32 +22,37 @@ body{
     margin-top:20%;
     margin-bottom:25%;
 }
-.splitContainer{
+.titleName{
     width: 100%;
-    overflow: hidden;
-    border-radius: 15px;
-}
-.splitLeft, .splitRight{
-    
-    Display: inline-block;
-    overflow:auto;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 45%;
-    min-width: 40%;
-    padding: 1%;
-    background: #424B5434;
-    border: 3px solid #F1AB86;
+}
+.title{
+    color: #5c3b27;
+    width: 50%;
+    max-height:5%;
+    size: 24px;
+    align-self: center;
+    text-align: center;
+    background: #B08968EE;
     border-radius: 15px;
-    box-sizing: border-box;
-    margin-bottom: 2%;
-}
-.splitRight{
-    float: right;
-    line-height: 50px;
-}
-.splitLeft{
-    float: left; 
-    line-height: 50px;
-}
+    border: 1px solid #000000;
+    padding:0.5rem 0;
+    margin-top:6rem;
+    margin-bottom:2rem;
 
+}
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project{
+    margin: 1.5rem 0;
+    width: 75%;
+    border:solid 2px #7F5539;
+    border-radius: 15px;
+    background-color: #B08968EE;
+}
