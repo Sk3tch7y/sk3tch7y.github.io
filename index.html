@@ -5,55 +5,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Didact Gothic" rel="stylesheet">
         <link href="homeStyle.css" rel="stylesheet">
+        <link href = "style.css" rel = "stylesheet">
     </head>
 
     <title>
         Adams Porfolio
     </title>
-    <body>
+    <header>
+        <nav id = 'menuBar' class = 'hidden'>
+            
+            <ul>
+                <li><strong><a href = './index.html'>Home</a></strong></li>
+                <li><strong><a href = './projects.html'>Projects</a></strong></li>
+            </ul>
         
-        <div id = 'top' class = 'header'>
-            <nav id = 'menuBar' class = 'hidden'>
-                <button id = 'menuBut' title="navigation menu"><img id = "menubutton" src = 'homeContent/menuArrow.png'></button>
-                <ul>
-                    <li class = 'hidden'><strong><a href = './index.html'>Home</a></strong></li>
-                    <li><strong><a href = './atom.html'>Atom Daily Organizer</a></strong></li>
-                    <li class = 'hidden'><strong><a href = 'neurogenesis.html'>Neurogenesis</a></strong></li>
-                    <li><strong><a href = 'pinkObsidian.html'>Pink Obsidian</a></strong></li>
+        </nav>
+    </header>
 
-                </ul>
-
-            </nav>
+    <body>
             <div class = "titleName">
                 <h1 id = 'title'>
                     <strong>My Name is Adam Badry</strong>
                 </h1>
             </div>
-            
-            <div class = 'splitContainer'>
-                <h2 class = 'splitLeft'>
+            <div class ='coloredSpacer'>
+                <h2 class = 'inDivTxt'>
                     <em>
-                        
-                        I am an ambitious and passionate individual.
-                        I take pride in my work and often chase new experiences and opportunities to learn new things.
-                        In my free time I love to create new things. 
+                
+                        Welcome to my portfolio! I am a student at the University of British Columbia studying Computer Science.
+                        My specialty is in web development but I am always looking for new skills to add to my brain.
+                        I take pride in my work and often chase new experiences and opportunities to conquer new challenges.
+                        In my free time I love to create. 
                         I like writing music, making art, videogames, telling stories, and even using my computer knowledge to create tools to help power productivity in my own life! 
                          
                     </em>
-            </h2>
-                <h2 class = 'splitRight'>
-                    All of my projects are things that I am passionate about, I am available for commission and i can guarantee I will put the same amount of effort into what you request
-                     as I put into my own projects.
-                     <br>
-                     I love a good challenge so I am happy to take a crack at things I have not done before or bigger projects!
                 </h2>
             </div>
-        </div>
-        <div class = footer>
-            <a href = '#top'>
-                <img id = "bottomimg" src ="homeContent/backArrow.png" alt = "back to top">
-                back to top
+            
+            <div class = 'pictureBacked'>
+             <h3> </h3>
+            </div>   
+               
+    </body>
+
+    <footer>
+        <a href = '#top'>
+            <img id = "bottomimg" src ="homeContent/backArrow.png" alt = "back to top">
+            <em>back to top</em>
+        </a>
+        <div class = 'links'>
+            <a href = 'https://www.linkedin.com/in/adam-b-2241451b2'>
+                <img src = 'homeContent/linkedIn.png' alt = 'linkedin'><em>LinkedIn</em>
+            </a>
+            <a href = 'https://github.com/Sk3tch7y'>
+                <img src = 'homeContent/github-mark.png' alt = 'github'><em>Github</em>
             </a>
         </div>
-    </body>
+    </footer>
+    
 </html>

@@ -3,10 +3,10 @@
 h2{
     size: 12px;
 }
-.titleName{
+body{
 
     position: relative;
-    background-image: url('homeContent/sunset.jpg');
+    background-image: url('homeContent/widepond.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,21 +14,8 @@ h2{
     background-clip:content-box;
     
 }
-.pictureBacked{
-    position: relative;
-    background-image: url('homeContent/widelake.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-clip:content-box;
-    width:100%;
-    height: 60rem;
-
-}
 .titleName{
     width: 100%;
-    height: 60rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,8 +31,13 @@ h2{
     margin-top:20%;
     margin-bottom:25%;
 }
-.textbox{
-    color: #7f5539;
+.splitContainer{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.splitLeft, .splitRight{
+    
     Display: inline-block;
     overflow:auto;
     justify-content: center;
@@ -53,21 +45,18 @@ h2{
     max-width: 45%;
     min-width: 40%;
     padding: 1%;
-    border: 2px solid #EDE0D4;
+    background: #424B5434;
+    border: 3px solid #F1AB86;
     border-radius: 15px;
     box-sizing: border-box;
     margin-bottom: 2%;
+}
+.splitRight{
+    float: right;
     line-height: 50px;
 }
-.inDivTxt{
-    color: #5c3b27;
-    Display: inline-block;
-    overflow:auto;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
-    border-radius: 15px;
-    box-sizing: border-box;
-    margin-bottom: 2%;
+.splitLeft{
+    float: left; 
     line-height: 50px;
 }
+
