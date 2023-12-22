@@ -104,21 +104,35 @@
                     </div>
                 </div>
             </div>
+            <footer>
+                <a href = '#top'>
+                    <img id = "bottomimg" src ="homeContent/backArrow.png" alt = "back to top">
+                    <em>back to top</em>
+                </a>
+                <div class = 'links'>
+                    <a href = 'https://www.linkedin.com/in/adam-b-2241451b2'>
+                        <img src = 'homeContent/linkedIn.png' alt = 'linkedin'><em>LinkedIn</em>
+                    </a>
+                    <a href = 'https://github.com/Sk3tch7y'>
+                        <img src = 'homeContent/github-mark.png' alt = 'github'><em>Github</em>
+                    </a>
+                </div>
+            </footer>
+            
+            <script>
+                const divs = document.querySelectorAll('.sideshow div');
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                        } else {
+                            entry.target.classList.remove('visible');
+                        }
+                    });
+                });
+                divs.forEach(div => {
+                    observer.observe(div);
+                });
+            </script>
     </body>
-
-    <footer>
-        <a href = '#top'>
-            <img id = "bottomimg" src ="homeContent/backArrow.png" alt = "back to top">
-            <em>back to top</em>
-        </a>
-        <div class = 'links'>
-            <a href = 'https://www.linkedin.com/in/adam-b-2241451b2'>
-                <img src = 'homeContent/linkedIn.png' alt = 'linkedin'><em>LinkedIn</em>
-            </a>
-            <a href = 'https://github.com/Sk3tch7y'>
-                <img src = 'homeContent/github-mark.png' alt = 'github'><em>Github</em>
-            </a>
-        </div>
-    </footer>
-    
 </html>
