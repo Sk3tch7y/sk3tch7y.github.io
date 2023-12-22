@@ -6,6 +6,9 @@
 html{
     scroll-behavior: smooth;
 }
+h2{
+    size: 12px;
+}
 body{
     font-family: 'Didact Gothic';
     text-align: center;
@@ -52,7 +55,7 @@ a:hover{
 .coloredSpacer{
     background-color: #E6CCB2;
     width:100%;
-    padding: 25px 0;
+    padding: 3vw 1vw;
     height:auto;
     width: 100%;
     overflow: hidden;

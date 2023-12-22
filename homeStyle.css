@@ -1,9 +1,6 @@
 body{
     color: #5c3b27;
 }
-h2{
-    size: 12px;
-}
 #home{
     color: #5c3b27;
 }
@@ -16,19 +13,20 @@ h2{
     background-repeat: no-repeat;
     background-size:cover;
     background-clip:content-box;
-    
+    width:100%;
+    min-height: 500px;
+    height: auto;
 }
 .pictureBacked{
-
     position: relative;
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
     background-clip:content-box;
     width:100%;
-    height: 60rem;
+    min-height: 500px;
+    height:auto;
 
 }
 #exp{
@@ -42,52 +40,52 @@ h2{
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 60rem;
+    min-height: 60rem;
+    padding: 6vw 0;
     
 }
 .sideshow div{
     color: #5c3b27;
-    max-width: 50%;
-    width: 50%;
-    padding: 30px;
-    size: 24px;
+    max-width: 50vw;
+    width: 50vw;
+    padding: 2vw;
     text-align: center;
     background: #FFFFFFBF;
     border-radius: 15px;
     border: 1px solid #000000;
-    margin-top:2rem;
-    margin-bottom:1rem;
+    margin-top:4vw;
+    margin-bottom:4vw;
 }
 .starbs{
-    margin-left: 40%;
+    margin-left: 40vw;
     text-align: right;
 }
 .efk{
-    margin-left: 4%;
+    margin-left: 4vw;
     text-align: left;
 }
 .gro{
-    margin-left: 40%;
+    margin-left: 40vw;
     text-align: right;
 }
 .cadets{
-    margin-left: 4%;
+    margin-left: 4vw;
     text-align: left;
 }
 .web{
-    margin-left: 40%;
+    margin-left: 40vw;
     text-align: right;
 }
 .emb{
-    margin-left: 4%;
+    margin-left: 4vw;
     text-align: left;
 }
 .mgm{
-    margin-left: 40%;
+    margin-left: 40vw;
     text-align: right;
 }
 .many{
-    margin:4%;
+    margin:4vw;
     text-align: left;
 }
 #csdiv{
@@ -95,46 +93,50 @@ h2{
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 60rem;
+    min-height: 60rem;
+    height:auto;
     
 }
-.pictureBacked h1{
 
-
-}
 .titleName{
     width: 100%;
-    height: 60rem;
+    height: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    justify-items: center;
+
 }
 #title{
     color: #5c3b27;
-    min-width: 50%;
+    min-width: 50vw;
+    max-height:32px;
     size: 24px;
     text-align: center;
     background: #FFFFFF89;
     border-radius: 15px;
     border: 1px solid #000000;
     padding:0px;
-    margin-top:20%;
-    margin-bottom:25%;
+    margin-top:20vw;
+    margin-bottom:25vw;
 }
 .title{
+    display:flex;
+    flex-direction: column;
     color: #5c3b27;
-    width: 50%;
-    max-height:5%;
+    min-width: 50vw;
+    min-height:7vw;
     size: 24px;
     align-self: center;
+    justify-content: center;
     text-align: center;
     background: #FFFFFFBF;
     border-radius: 15px;
     border: 1px solid #000000;
-    padding:0px;
-    margin-top:4rem;
-    margin-bottom:2rem;
+    padding:1.5vw;
+    margin-top:4vw;
+    margin-bottom:4vw;
 }
 .textbox{
     color: #7f5539;
@@ -142,13 +144,13 @@ h2{
     overflow:auto;
     justify-content: center;
     align-items: center;
-    max-width: 45%;
-    min-width: 40%;
-    padding: 1%;
+    max-width: 45vw;
+    min-width: 40vw;
+    padding: 1vw;
     border: 2px solid #EDE0D4;
     border-radius: 15px;
     box-sizing: border-box;
-    margin-bottom: 2%;
+    margin-bottom: 2vw;
     line-height: 50px;
 }
 .inDivTxt{
@@ -157,12 +159,12 @@ h2{
     overflow:auto;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 2vw;
     border-radius: 15px;
     box-sizing: border-box;
-    margin-bottom: 2%;
+    margin-bottom: 2vw;
     line-height: 50px;
 }
 .inDivTxt h3{
-    margin: 0 3%;
+    margin: 0 3vw;
 }
