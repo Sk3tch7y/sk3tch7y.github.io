@@ -25,9 +25,8 @@ body{
     background-size:cover;
     background-clip:content-box;
     width:100%;
-    min-height: 500px;
+    min-height: 700px;
     height:auto;
-
 }
 #exp{
     background-image: url('homeContent/widelake.jpg');
@@ -39,9 +38,9 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    align-self: center;
+    width: 100vw;
     min-height: 60rem;
-    padding: 6vw 0;
     
 }
 .sideshow div{
@@ -61,7 +60,7 @@ body{
     text-align: right;
 }
 .efk{
-    margin-left: 4vw;
+    margin-left: 6vw;
     text-align: left;
 }
 .gro{
@@ -69,7 +68,7 @@ body{
     text-align: right;
 }
 .cadets{
-    margin-left: 4vw;
+    margin-left: 6vw;
     text-align: left;
 }
 .web{
@@ -77,7 +76,7 @@ body{
     text-align: right;
 }
 .emb{
-    margin-left: 4vw;
+    margin-left: 6vw;
     text-align: left;
 }
 .mgm{
@@ -85,7 +84,7 @@ body{
     text-align: right;
 }
 .many{
-    margin:4vw;
+    margin-left:6vw;
     text-align: left;
 }
 #csdiv{
@@ -159,12 +158,12 @@ body{
     overflow:auto;
     justify-content: center;
     align-items: center;
-    padding: 2vw;
+    padding: 1vw 6vw;
     border-radius: 15px;
     box-sizing: border-box;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
     line-height: 50px;
 }
 .inDivTxt h3{
-    margin: 0 3vw;
+    line-height: 25px;
 }
