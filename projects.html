@@ -31,9 +31,17 @@
                 </h2> 
                 <h3 class = 'projDesc'>
                     <em>
-                        
+                        The coffee shop was a project for my database course at UBC. I was awarded a medal for it as it was one of the best projects in the class. 
+                        It uses JSP to browse a amazon style website where users can sign up for accounts, browse products, and purchase them. The website even recommends
+                        products for you based on previous purchases, so if you buy dark roast coffee's it will recommend other dark roast coffee's. While it looks a little rough it
+                        was meant to be a proof of concept for a database project and does not follow a high fidelity design sheet.
                     </em>
-                </h3>     
+                </h3> 
+                <img class = 'projImg' alt = 'The Coffee Shop home page with recommendations' src = 'homeContent/coffeeHome.png'>
+                <a href = 'https://github.com/Sk3tch7y/The-Coffee-Shop'>
+                    <img class = 'gitlink' alt = 'github logo' src = 'homeContent/github-mark.png'>
+                    <h3>Github Repo</h3>
+                </a>  
             </div>
             <div class = 'project'>
                 <h2 class = 'projTitle'> 
@@ -43,9 +51,16 @@
                 </h2> 
                 <h3 class = 'projDesc'>
                     <em>
-                        
+                        Bluehouse is the culmination of a project I have been planning for a while. Blue house is meant to interact with an ESP32 that can read environment data and
+                        power a motor to pump water into a plant. The ESP32 is connected to a webserver throught hardwareID, that can be accessed from anywhere in the world. 
+                        The webserver is hosted on google firebase.
                     </em>
-                </h3>     
+                </h3>
+                <img class = 'projImg' alt = 'Esp 32 device with DHT11 and photoresistor module' src = 'homeContent/esp.jpg'>
+                <a href = 'https://github.com/Sk3tch7y/BlueHouse'>
+                    <img class = 'gitlink' alt = 'github logo' src = 'homeContent/github-mark.png'>
+                    <h3>Github Repo</h3>
+                </a> 
             </div>
             <div class = 'project'>
                 <h2 class = 'projTitle'> 
@@ -55,10 +70,39 @@
                 </h2> 
                 <h3 class = 'projDesc'>
                     <em>
-                        
+                        Building the Bluehouse app prototype was made into part of a group project because my group liked the idea, as it was already something I was building in my freetime.
+                        I was our project champion for the project and was responsible for the app prototype. The app prototype was built using Java and XML, and demonstrates the basic functionality of the app with minimal backend.
+                        This project was managed by me and team communications were done through the public GitHub and Slack. I faced many challenges with this project, but I am proud of the work I did and what potential I was able to extract from my group mates. 
+                        This project is currently being reworked by me, as I would like to remake certain parts that did not fit our design document, and I would like to add more functionality to the app.
                     </em>
-                </h3>     
+                </h3>   
+                <img class = 'blueprojImg' alt = '' src = 'homeContent/bluehouseHome.png'>
+                <a href = 'https://github.com/Sk3tch7y/BlueHouse'>
+                    <img class = 'gitlink' alt = 'github logo' src = 'homeContent/github-mark.png'>
+                    <h3>Github Repo</h3>
+                </a> 
             </div>
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var div = document.querySelector('.project');
+                div.scrollTop = 0; // Start the scrollbar at the top
+            });
+        </script>
     </body>
+    <footer>
+       
+        <a href = '#top'>
+            <img id = "bottomimg" src ="homeContent/backArrow.png" alt = "back to top">
+            <em>back to top</em>
+        </a>
+        <div class = 'links'>
+            <a href = 'https://www.linkedin.com/in/adam-b-2241451b2'>
+                <img src = 'homeContent/linkedIn.png' alt = 'linkedin'><em>LinkedIn</em>
+            </a>
+            <a href = 'https://github.com/Sk3tch7y'>
+                <img src = 'homeContent/github-mark.png' alt = 'github'><em>Github</em>
+            </a>
+        </div>
+    </footer>
 </html>
